@@ -1,0 +1,83 @@
+#dashboard{
+    height: 100vh;
+}
+
+#dashboard header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+#dashboard header .logo{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dashboard header .logo .fa-search{
+    color: #BBBCC0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+#dashboard header .logo .fa-search:hover{
+    background: #F7F9F8;
+}
+
+
+#dashboard header .header-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dashboard header .header-menu a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #C5C5C5;
+    padding: 0 10px;
+    transition: all .3s ease-in-out;
+}
+
+#dashboard header .header-menu a:hover{
+    font-weight: 700;
+    color: black;
+}
+
+#dashboard header .menu-btn{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dashboard header .menu-btn .fa-bell{
+    color: #BBBCC0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1rem;
+    transition: all .3s ease-in-out;
+    margin-right: 25px;
+    font-size: 1.2rem;
+}
+
+#dashboard header .menu-btn .fa-bell:hover{
+    color: #BBBCC0;
+    background: #F7F9F8;
+}
+
+#dashboard header .menu-btn .avatar{
+    height: 50px;
+    width: 50px;
+    background: url('https://pbs.twimg.com/profile_images/501759258665299968/3799Ffxy.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
