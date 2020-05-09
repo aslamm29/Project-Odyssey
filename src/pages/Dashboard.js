@@ -17,6 +17,13 @@ const Dashboard = () => {
           <div className="avatar" />
         </div>
       </header>
+      <div className="welcome-section">
+        <div className="img" />
+        <div className="content">
+          <h2>Good morning, Mackenzie.</h2>
+          <p>Coffee? Check. It's time to take on the day.</p>
+        </div>
+      </div>
     </section>
   );
 };

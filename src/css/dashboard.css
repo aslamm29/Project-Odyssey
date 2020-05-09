@@ -3,6 +3,7 @@
 }
 
 #dashboard header{
+    background: blueviolet;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -80,4 +81,38 @@
     background-size: cover;
     border-radius: 50%;
     cursor: pointer;
+}
+
+#dashboard .welcome-section{
+    display: flex;
+    background: blue;
+    margin-top: 25px;
+}
+
+#dashboard .welcome-section .img{
+    background: url('../images/welcomeImage.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+}
+
+#dashboard .welcome-section .content{
+    margin-left: 20px;
+}
+
+#dashboard .welcome-section .content h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#dashboard .welcome-section .content p{
+    color: #BBBCC0;
+    font-size: .9rem;
+    font-weight: 600;
 }
