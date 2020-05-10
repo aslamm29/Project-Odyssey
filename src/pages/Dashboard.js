@@ -29,12 +29,12 @@ const Dashboard = () => {
           <div className="box grid1">
             <div className="title-box">
               <div className="logo">
-                <i class="fas fa-briefcase">
+                <i className="fas fa-briefcase">
                   <div className="bluecircle" />
                 </i>
                 <h4>Projects</h4>
               </div>
-              <i class="fas fa-chevron-right"></i>
+              <i className="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
               <h3>5 new inquires</h3>
@@ -44,15 +44,15 @@ const Dashboard = () => {
               <h3>10 projects with new activity</h3>
               <div className="items">
                 <p>Carson brand design</p>
-                <i class="far fa-comment-dots"></i>
+                <i className="far fa-comment-dots"></i>
               </div>
               <div className="items">
                 <p>Cline social suite</p>
-                <i class="far fa-comment-dots"></i>
+                <i className="far fa-comment-dots"></i>
               </div>
               <div className="items">
                 <p>Lyle website mock-up</p>
-                <i class="far fa-edit"></i>
+                <i className="far fa-edit"></i>
               </div>
               <div className="expand-btn">VIEW ALL</div>
             </div>
@@ -65,7 +65,7 @@ const Dashboard = () => {
                 </i>
                 <h4>Invoices</h4>
               </div>
-              <i class="fas fa-chevron-right"></i>
+              <i className="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
               <p>
@@ -79,12 +79,12 @@ const Dashboard = () => {
           <div className="box grid3">
             <div className="title-box">
               <div className="logo">
-                <i class="fas fa-tasks">
+                <i className="fas fa-tasks">
                   <div className="bluecircle" />
                 </i>
                 <h4>Tasks</h4>
               </div>
-              <i class="fas fa-chevron-right"></i>
+              <i className="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
               <p>
@@ -98,12 +98,12 @@ const Dashboard = () => {
           <div className="box grid4">
             <div className="title-box">
               <div className="logo">
-                <i class="far fa-calendar-alt">
+                <i className="far fa-calendar-alt">
                   <div className="bluecircle" />
                 </i>
                 <h4>Calendar</h4>
               </div>
-              <i class="fas fa-chevron-right"></i>
+              <i className="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
               <p>
@@ -117,12 +117,12 @@ const Dashboard = () => {
           <div className="box grid5">
             <div className="title-box">
               <div className="logo">
-                <i class="fas fa-chart-line">
+                <i className="fas fa-chart-line">
                   <div className="bluecircle" />
                 </i>
                 <h4>Reports</h4>
               </div>
-              <i class="fas fa-chevron-right"></i>
+              <i className="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
               <p>
