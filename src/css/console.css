@@ -1,0 +1,128 @@
+#console {
+  height: 100vh;
+}
+
+#console header {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: blueviolet;
+}
+
+#console header .logo {
+    width: calc(100vw - 85vw);
+    border-right: 2px solid #fbfbfc;
+    padding: 8px 10px;
+}
+
+#console header .logo .logo-img {
+  height: 40px;
+  width: 40px;
+  background: url("../images/consoleLogo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#console header .search-bar {
+    padding: 7px 15px 7px 15px;
+    width: calc(100vw - 30vw);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-right: 2px solid #fbfbfc;
+}
+
+#console header .search-bar .fa-search {
+    color: #273F54;
+    padding-right: 15px;
+    font-size: 1.1rem;
+}
+
+#console header .search-bar .search-input {
+    padding: 10px 15px 10px 15px;
+    width: 60%;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    color: #273F54;
+}
+
+#console header .menu-btn {
+    width: calc(100vw - 85vw);
+    padding: 8px 35px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#console header .menu-btn i {
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #C8CED3;
+}
+
+#console .content-section{
+display: flex;
+align-items: flex-start;
+justify-content: space-around;
+width: 100vw;
+}
+
+#console .content-section .select-menu{
+    width: calc(100vw - 85vw);
+    height: calc(100vh - 8vh);
+    background: #FBFBFC;
+    padding: 15px;
+}
+
+#console .content-section .select-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+#console .content-section .select-menu ul i{
+    color: #273F54;
+    padding-right: 10px;
+}
+
+#console .content-section .select-menu ul .fa-angle-down{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+#console .content-section .select-menu ul a{
+    text-decoration: none;
+    color: black;
+}
+
+#console .content-section .select-menu .sub-list{
+    color: #66C9A8;
+    background: #F2F3F5;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+
+#console .content-section .select-menu ul span{}
+
+
+
+
+
+
+#console .content-section .content-area{
+    width: calc(100vw - 15vw);
+    height: calc(100vh - 8vh);
+    background: cornflowerblue;
+}
