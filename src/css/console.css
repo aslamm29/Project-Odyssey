@@ -70,6 +70,10 @@
   color: #c8ced3;
 }
 
+#console header .menu-btn i:hover {
+  background: #f2f3f5;
+}
+
 #console .content-section {
   display: flex;
   align-items: flex-start;
@@ -90,7 +94,6 @@
   align-items: center;
   justify-content: flex-start;
   padding: 20px 0;
-  cursor: pointer;
   position: relative;
 }
 
@@ -102,6 +105,7 @@
 #console .content-section .select-menu ul .fa-angle-down {
   padding-left: 20px;
   padding-right: 0;
+  cursor: pointer;
   position: absolute;
   top: 10;
   right: 0;
@@ -110,6 +114,7 @@
 #console .content-section .select-menu ul .fa-angle-up {
   padding-left: 20px;
   padding-right: 0;
+  cursor: pointer;
   position: absolute;
   top: 10;
   right: 0;
