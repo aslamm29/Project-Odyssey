@@ -8,13 +8,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: blueviolet;
 }
 
 #console header .logo {
-    width: calc(100vw - 85vw);
-    border-right: 2px solid #fbfbfc;
-    padding: 8px 10px;
+  width: calc(100vw - 85vw);
+  min-width: 150px;
+  border-right: 2px solid #fbfbfc;
+  padding: 8px 10px;
 }
 
 #console header .logo .logo-img {
@@ -29,100 +29,321 @@
 }
 
 #console header .search-bar {
-    padding: 7px 15px 7px 15px;
-    width: calc(100vw - 30vw);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    border-right: 2px solid #fbfbfc;
+  padding: 7px 15px 7px 15px;
+  width: calc(100vw - 30vw);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-right: 2px solid #fbfbfc;
 }
 
 #console header .search-bar .fa-search {
-    color: #273F54;
-    padding-right: 15px;
-    font-size: 1.1rem;
+  color: #273f54;
+  padding-right: 15px;
+  font-size: 1.1rem;
 }
 
 #console header .search-bar .search-input {
-    padding: 10px 15px 10px 15px;
-    width: 60%;
-    border: none;
-    font-size: 1.2rem;
-    font-weight: 500;
-    outline: none;
-    color: #273F54;
+  padding: 10px 15px 10px 15px;
+  width: 60%;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  outline: none;
+  color: #273f54;
 }
 
 #console header .menu-btn {
-    width: calc(100vw - 85vw);
-    padding: 8px 35px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: calc(100vw - 85vw);
+  padding: 8px 35px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #console header .menu-btn i {
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 1.1rem;
-    color: #C8CED3;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #c8ced3;
 }
 
-#console .content-section{
-display: flex;
-align-items: flex-start;
-justify-content: space-around;
-width: 100vw;
+#console .content-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100vw;
 }
 
-#console .content-section .select-menu{
-    width: calc(100vw - 85vw);
-    height: calc(100vh - 8vh);
-    background: #FBFBFC;
-    padding: 15px;
+#console .content-section .select-menu {
+  width: calc(100vw - 85vw);
+  max-width: calc(100vw - 85vw);
+  height: calc(100vh - 8vh);
+  background: #fbfbfc;
+  padding: 15px;
 }
 
-#console .content-section .select-menu ul{
-    display: flex;
-    align-items: center;
+#console .content-section .select-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+#console .content-section .select-menu ul i {
+  color: #273f54;
+  padding-right: 10px;
+}
+
+#console .content-section .select-menu ul .fa-angle-down {
+  padding-left: 20px;
+  padding-right: 0;
+  position: absolute;
+  top: 10;
+  right: 0;
+}
+
+#console .content-section .select-menu ul .fa-angle-up {
+  padding-left: 20px;
+  padding-right: 0;
+  position: absolute;
+  top: 10;
+  right: 0;
+}
+
+#console .content-section .select-menu ul a {
+  text-decoration: none;
+  color: black;
+}
+
+#console .content-section .select-menu .sub-list {
+  color: #66c9a8;
+  background: #f2f3f5;
+  padding-left: 15px;
+  border-radius: 25px;
+}
+
+#console .content-section .select-menu ul span {
+}
+
+#console .content-section .content-area {
+  width: calc(100vw - 15vw);
+  max-width: calc(100vw - 15vw);
+  height: calc(100vh - 8vh);
+  background: #fbfbfc;
+  padding: 15px;
+}
+
+#console .content-section .content-area .box {
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(187, 188, 192, 0.8);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(187, 188, 192, 0.8);
+  box-shadow: 5px 5px 5px 0px rgba(187, 188, 192, 0.8);
+}
+
+#console .content-section .content-area .box .title-area {
+  padding: 20px 15px;
+  border-radius: 5px;
+  background: #58c594;
+}
+
+#console .content-section .content-area .box .title-area .title {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#console .content-section .content-area .box .form-container {
+  padding: 20px 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#console .content-section .content-area .box .form-container .sub-form {
+  border-radius: 3px;
+  width: 220px;
+}
+
+#console
+  .content-section
+  .content-area
+  .box
+  .form-container
+  .sub-form
+  .sub-title-area {
+  padding: 15px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #c5fadf;
+}
+
+#console
+  .content-section
+  .content-area
+  .box
+  .form-container
+  .sub-form
+  .sub-title-area
+  .sub-title {
+  color: black;
+  font-size: 1.1rem;
+}
+
+#console
+  .content-section
+  .content-area
+  .box
+  .form-container
+  .sub-form
+  .sub-title-area
+  i {
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgb(119, 119, 119);
+}
+
+#console
+  .content-section
+  .content-area
+  .box
+  .form-container
+  .sub-form
+  .sub-contents {
+  padding: 15px;
+}
+
+#console
+  .content-section
+  .content-area
+  .box
+  .form-container
+  .sub-form
+  .sub-contents
+  .content {
+  border-top: 1px solid #c8ced3;
+  border-bottom: 1px solid #c8ced3;
+  padding: 10px;
+}
+
+#console
+  .content-section
+  .content-area
+  .box
+  .form-container
+  .sub-form
+  .sub-contents
+  .content:last-child {
+  border-bottom: none;
+}
+
+#console
+  .content-section
+  .content-area
+  .box
+  .form-container
+  .sub-form
+  .sub-contents
+  .content
+  p {
+  padding: 5px 0;
+}
+
+/* Phones */
+@media only screen and (max-width: 767px) {
+  #console header {
     justify-content: flex-start;
-    padding: 20px 0;
-    cursor: pointer;
-}
+  }
 
-#console .content-section .select-menu ul i{
-    color: #273F54;
+  #console header .logo {
+    min-width: 0px;
+    max-width: 60px;
+    border-right: none;
+    padding: 8px 10px;
+  }
+
+  #console header .logo .logo-img {
+    height: 30px;
+    width: 30px;
+  }
+
+  #console header .search-bar {
+    padding: 7px 5px 7px 5px;
+    max-width: 200px;
+    border-right: none;
+  }
+
+  #console header .search-bar .fa-search {
     padding-right: 10px;
-}
+    font-size: 1rem;
+  }
 
-#console .content-section .select-menu ul .fa-angle-down{
-    padding-left: 20px;
-    padding-right: 0;
-}
+  #console header .search-bar .search-input {
+    width: calc(70vw - 30vw);
+    font-size: 1rem;
+  }
 
-#console .content-section .select-menu ul a{
-    text-decoration: none;
-    color: black;
-}
+  #console header .menu-btn {
+    max-width: 120px;
+    padding: 8px 0;
+    margin: 0;
+    justify-content: flex-start;
+  }
 
-#console .content-section .select-menu .sub-list{
-    color: #66C9A8;
-    background: #F2F3F5;
-    padding-left: 15px;
-    border-radius: 25px;
-}
+  #console header .menu-btn i {
+    padding: 5px;
+    font-size: 1rem;
+  }
 
-#console .content-section .select-menu ul span{}
+  #console .content-section .select-menu {
+    min-width: 30vw;
+    padding: 0;
+  }
 
+  #console .content-section .select-menu ul {
+    padding: 20px 5px;
+  }
 
+  #console .content-section .select-menu ul i {
+    padding-right: 5px;
+  }
 
+  #console .content-section .select-menu ul .fa-angle-down {
+    padding-left: 5px;
+  }
 
+  #console .content-section .select-menu ul .fa-angle-up {
+    padding-left: 5px;
+  }
 
+  #console .content-section .content-area {
+    min-width: 70vw;
+    padding: 5px;
+    overflow: scroll;
+  }
 
-#console .content-section .content-area{
-    width: calc(100vw - 15vw);
-    height: calc(100vh - 8vh);
-    background: cornflowerblue;
+  #console .content-section .content-area .box {
+    padding: 10px;
+  }
+
+  #console .content-section .content-area .box .title-area {
+    padding: 20px 15px;
+  }
+
+  #console .content-section .content-area .box .form-container {
+    padding: 10px 5px;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #console .content-section .content-area .box .form-container .sub-form {
+    padding-bottom: 10px;
+  }
 }
