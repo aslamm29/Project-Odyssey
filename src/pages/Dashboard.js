@@ -8,9 +8,9 @@ const Dashboard = () => {
           <i className="fas fa-search"></i>
         </div>
         <div className="header-menu">
-          <a href="#">Dasboard</a>
-          <a href="#">Console</a>
-          <a href="#">Tasks</a>
+          <a href="/">Dasboard</a>
+          <a href="/console">Console</a>
+          <a href="/tasks">Tasks</a>
         </div>
         <div className="menu-btn">
           <i className="far fa-bell"></i>
