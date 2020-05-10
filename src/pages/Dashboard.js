@@ -68,8 +68,8 @@ const Dashboard = () => {
               <i class="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
-              <p><span>5</span> new inquires</p>
-              <p><span>5</span> new inquires</p>
+              <p><span>2</span> payments overdue</p>
+              <p><span>4</span> payments paid in the last week</p>
             </div>
           </div>
           <div className="box grid3">
@@ -83,8 +83,8 @@ const Dashboard = () => {
               <i class="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
-              <p><span>5</span> new inquires</p>
-              <p><span>5</span> new inquires</p>
+              <p><span>1</span> task due today</p>
+              <p><span>5</span> total tasks</p>
             </div>
           </div>
           <div className="box grid4">
@@ -98,8 +98,8 @@ const Dashboard = () => {
               <i class="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
-              <p><span>5</span> new inquires</p>
-              <p><span>5</span> new inquires</p>
+              <p><span>2</span> scheduled events today</p>
+              <p><span>10</span> scheduled events this week</p>
             </div>
           </div>
           <div className="box grid5">
@@ -113,8 +113,8 @@ const Dashboard = () => {
               <i class="fas fa-chevron-right"></i>
             </div>
             <div className="content-area">
-              <p><span>5</span> new inquires</p>
-              <p><span>5</span> new inquires</p>
+              <p>Top lead source: <span>Google</span></p>
+              <p>Value of bookings this year <span>$26</span></p>
             </div>
           </div>
         </div>
