@@ -7,7 +7,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter basename='/'>
+      <BrowserRouter>
         <Route exact path="/" component={Dashboard} />
         <Route exact path="/console" component={Console} />
         <Route exact path="/tasks" component={Tasks} />
