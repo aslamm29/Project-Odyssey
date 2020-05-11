@@ -26,19 +26,19 @@ const Console = () => {
       <section className="content-section">
         <section className="select-menu">
           <ul className="list-container">
-            <i class="fas fa-tachometer-alt"></i>
+            <i className="fas fa-tachometer-alt"></i>
             <a href="/">Dashboard</a>
           </ul>
           <ul className="list-container">
-            <i class="fas fa-share-alt"></i>
+            <i className="fas fa-share-alt"></i>
             <a href="/console">Console</a>
           </ul>
           <ul className="list-container">
-            <i class="fas fa-list"></i>
+            <i className="fas fa-list"></i>
             <a href="/tasks">Tasks</a>
           </ul>
           <ul className="list-container">
-            <i class="far fa-file"></i>
+            <i className="far fa-file"></i>
             <span>Templates</span>
             <i
               className={`fas fa-angle-${!angleDown ? "up" : "down"}`}
@@ -60,7 +60,7 @@ const Console = () => {
               <div className="sub-form">
                 <div className="sub-title-area">
                   <div className="sub-title">Contracts</div>
-                  <i class="fas fa-plus"></i>
+                  <i className="fas fa-plus"></i>
                 </div>
                 <div className="sub-contents">
                   <div className="content">
@@ -82,7 +82,7 @@ const Console = () => {
               <div className="sub-form">
                 <div className="sub-title-area">
                   <div className="sub-title">Sub-Agreements</div>
-                  <i class="fas fa-plus"></i>
+                  <i className="fas fa-plus"></i>
                 </div>
                 <div className="sub-contents">
                   <div className="content">
@@ -98,7 +98,7 @@ const Console = () => {
               <div className="sub-form">
                 <div className="sub-title-area">
                   <div className="sub-title">Questionnaires</div>
-                  <i class="fas fa-plus"></i>
+                  <i className="fas fa-plus"></i>
                 </div>
                 <div className="sub-contents">
                   <div className="content">
@@ -115,7 +115,7 @@ const Console = () => {
               <div className="sub-form">
                 <div className="sub-title-area">
                   <div className="sub-title">Extras</div>
-                  <i class="fas fa-plus"></i>
+                  <i className="fas fa-plus"></i>
                 </div>
                 <div className="sub-contents">
                   <div className="content">
