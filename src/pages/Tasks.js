@@ -62,7 +62,7 @@ const Tasks = () => {
   return (
     <section id="console">
       <header>
-        <a href="/console" className="logo">
+        <a href="/Project-Odyssey/#/console" className="logo">
           <div className="logo-img" />
         </a>
         <div className="search-bar">
@@ -83,15 +83,15 @@ const Tasks = () => {
         <section className="select-menu">
           <ul className="list-container">
             <i className="fas fa-tachometer-alt"></i>
-            <a href="/">Dashboard</a>
+            <a href="/Project-Odyssey/#/">Dashboard</a>
           </ul>
           <ul className="list-container">
             <i className="fas fa-share-alt"></i>
-            <a href="/console">Console</a>
+            <a href="/Project-Odyssey/#/console">Console</a>
           </ul>
           <ul className="list-container selected">
             <i className="fas fa-list selected-clr"></i>
-            <a href="/tasks" className="selected-clr">
+            <a href="/Project-Odyssey/#/tasks" className="selected-clr">
               Tasks
             </a>
           </ul>

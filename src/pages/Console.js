@@ -6,7 +6,7 @@ const Console = () => {
   return (
     <section id="console">
       <header>
-        <a href="/console" className="logo">
+        <a href="/Project-Odyssey/#/console" className="logo">
           <div className="logo-img" />
         </a>
         <div className="search-bar">
@@ -27,15 +27,15 @@ const Console = () => {
         <section className="select-menu">
           <ul className="list-container">
             <i className="fas fa-tachometer-alt"></i>
-            <a href="/">Dashboard</a>
+            <a href="/Project-Odyssey/#/">Dashboard</a>
           </ul>
           <ul className="list-container">
             <i className="fas fa-share-alt"></i>
-            <a href="/console">Console</a>
+            <a href="/Project-Odyssey/#/console">Console</a>
           </ul>
           <ul className="list-container">
             <i className="fas fa-list"></i>
-            <a href="/tasks">Tasks</a>
+            <a href="/Project-Odyssey/#/tasks">Tasks</a>
           </ul>
           <ul className="list-container">
             <i className="far fa-file"></i>
