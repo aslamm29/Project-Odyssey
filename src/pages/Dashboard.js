@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -10,9 +11,9 @@ const Dashboard = () => {
           <i className="fas fa-search"></i>
         </div>
         <div className="header-menu">
-          <a href="/">Dasboard</a>
-          <a href="/console">Console</a>
-          <a href="/tasks">Tasks</a>
+          <a><Link to="/">Dasboard</Link></a>
+          <a><Link to="/console">Console</Link></a>
+          <a><Link to="/">Tasks</Link></a>
         </div>
         <div className="menu-btn">
           <i className="far fa-bell"></i>
