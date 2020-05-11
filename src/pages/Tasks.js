@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Task from "../components/Task";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
-import { HashRouter } from "react-router-dom";
 
 const Tasks = () => {
   const [angleDown, setAngleDown] = useState(true);
@@ -61,7 +60,6 @@ const Tasks = () => {
   }
 
   return (
-    <HashRouter basename='/'>
     <section id="console">
       <header>
         <a href="/console" className="logo">
@@ -145,7 +143,6 @@ const Tasks = () => {
         </section>
       </section>
     </section>
-    </HashRouter>
   );
 };
 

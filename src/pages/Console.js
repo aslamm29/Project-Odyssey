@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import { HashRouter } from "react-router-dom";
 
 const Console = () => {
   const [angleDown, setAngleDown] = useState(true);
 
   return (
-    <HashRouter basename='/'>
     <section id="console">
       <header>
         <a href="/console" className="logo">
@@ -141,7 +139,6 @@ const Console = () => {
         </section>
       </section>
     </section>
-    </HashRouter>
   );
 };
 

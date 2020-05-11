@@ -1,19 +1,16 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { HashRouter, Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <HashRouter basename='/'>
     <section id="dashboard">
       <header>
         <div className="logo">
           <i className="fas fa-search"></i>
         </div>
         <div className="header-menu">
-          <a><Link to="/">Dasboard</Link></a>
-          <a><Link to="/console">Console</Link></a>
-          <a><Link to="/">Tasks</Link></a>
+          <a href="/">Dasboard</a>
+          <a href="/console">Console</a>
+          <a href="/tasks">Tasks</a>
         </div>
         <div className="menu-btn">
           <i className="far fa-bell"></i>
@@ -137,7 +134,6 @@ const Dashboard = () => {
         </div>
       </div>
     </section>
-    </HashRouter>
   );
 };
 
