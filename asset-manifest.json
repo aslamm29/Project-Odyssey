@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Project-Odyssey/static/css/main.88b0fd2c.chunk.css",
-    "main.js": "/Project-Odyssey/static/js/main.1eb56318.chunk.js",
-    "main.js.map": "/Project-Odyssey/static/js/main.1eb56318.chunk.js.map",
+    "main.js": "/Project-Odyssey/static/js/main.9923c813.chunk.js",
+    "main.js.map": "/Project-Odyssey/static/js/main.9923c813.chunk.js.map",
     "runtime-main.js": "/Project-Odyssey/static/js/runtime-main.b7917e9a.js",
     "runtime-main.js.map": "/Project-Odyssey/static/js/runtime-main.b7917e9a.js.map",
     "static/js/2.dc09aafe.chunk.js": "/Project-Odyssey/static/js/2.dc09aafe.chunk.js",
     "static/js/2.dc09aafe.chunk.js.map": "/Project-Odyssey/static/js/2.dc09aafe.chunk.js.map",
     "index.html": "/Project-Odyssey/index.html",
-    "precache-manifest.63e13e8410d3682754aaf9839a8c574c.js": "/Project-Odyssey/precache-manifest.63e13e8410d3682754aaf9839a8c574c.js",
+    "precache-manifest.6501cea1ea20173fb511d90ee09f7c26.js": "/Project-Odyssey/precache-manifest.6501cea1ea20173fb511d90ee09f7c26.js",
     "service-worker.js": "/Project-Odyssey/service-worker.js",
     "static/css/main.88b0fd2c.chunk.css.map": "/Project-Odyssey/static/css/main.88b0fd2c.chunk.css.map",
     "static/js/2.dc09aafe.chunk.js.LICENSE.txt": "/Project-Odyssey/static/js/2.dc09aafe.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b7917e9a.js",
     "static/js/2.dc09aafe.chunk.js",
     "static/css/main.88b0fd2c.chunk.css",
-    "static/js/main.1eb56318.chunk.js"
+    "static/js/main.9923c813.chunk.js"
   ]
 }
