@@ -122,6 +122,84 @@
     color: #23CAC8;
     padding-left: 5px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 #task-container .task-box .new-task .text{}
+
+
+/* Phones */
+@media only screen and (max-width: 767px) {   
+
+    #task-container .task-box .task-box-header{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        color: #b0b1b3;
+        font-size: .9rem;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    
+    #task-container .task-box .task-box-header .desc{
+        grid-column: 1/2;
+    }
+    
+    #task-container .task-box .task-box-header .assigned{
+        grid-column: 3;
+    }
+    
+    #task-container .task-box .task-box-header .priority{
+        grid-column: 4;
+    }
+    
+    #task-container .task-box .task-data{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(1fr);
+        background: white;
+        padding: 15px 0;
+        border-bottom: 3px solid #fbfbfc;
+    }
+    
+    #task-container .task-box .task-data .desc-data{
+        padding-left: 5px;
+        font-weight: 600;
+        grid-column: 1/2;
+        padding-right: 5px;
+    }
+    
+    #task-container .task-box .task-data .assigned-data{
+        color: #989898;
+        grid-column: 3;
+        padding-right: 5px;
+    }
+    
+    #task-container .task-box .task-data .priority-data{
+        color: #989898;
+        grid-column: 4;
+        padding-right: 5px;
+    }
+    
+    #task-container .task-box .task-data .logo-btn{
+        color: #989898;
+        grid-column: 5;
+        display: block;
+    }
+    
+    #task-container .task-box .task-data i{
+        padding-bottom: 5px;
+        padding-left: 5px;
+        cursor: pointer;
+    }
+    
+    #task-container .task-box .new-task{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding-left: 5px;
+        font-weight: 600;
+    }
+    
+    #task-container .task-box .new-task .text{}
+}

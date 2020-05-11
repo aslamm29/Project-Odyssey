@@ -1,9 +1,42 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const Tasks = () => {
-const [angleDown, setAngleDown] = useState(true);
+  const [angleDown, setAngleDown] = useState(true);
+  // eslint-disable-next-line no-unused-vars
+  const [taskData, setTaskData] = useState([
+    {
+      id: 1,
+      description: "Send Notification to parents",
+      assigned: "Me",
+      priority: "High",
+    },
+    {
+      id: 2,
+      description: "Sarach to pick-up at 2",
+      assigned: "Sarah",
+      priority: "High",
+    },
+    {
+      id: 3,
+      description: "Buy some crayons",
+      assigned: "Jessica",
+      priority: "Low",
+    },
+    {
+      id: 4,
+      description: "Plan activities",
+      assigned: "Me",
+      priority: "Medium",
+    },
+    {
+      id: 5,
+      description: "Find a day care",
+      assigned: "Andrew",
+      priority: "Medium",
+    },
+  ]);
 
-return(
+  return (
     <section id="console">
       <header>
         <a href="/console" className="logo">
@@ -35,7 +68,9 @@ return(
           </ul>
           <ul className="list-container selected">
             <i className="fas fa-list selected-clr"></i>
-            <a href="/tasks" className="selected-clr">Tasks</a>
+            <a href="/tasks" className="selected-clr">
+              Tasks
+            </a>
           </ul>
           <ul className="list-container">
             <i className="far fa-file"></i>
@@ -52,44 +87,39 @@ return(
           )}
         </section>
         <section className="content-area">
-            <div id="task-container">
+          <div id="task-container">
             <div className="task-header">
-                <div className="task-title">Tasks</div>
-                <div className="create-task"><span>+</span> Create Task</div>
+              <div className="task-title">Tasks</div>
+              <div className="create-task">
+                <span>+</span> Create Task
+              </div>
             </div>
-          <div className="task-box">
+            <div className="task-box">
               <div className="task-box-header">
-                  <div className="desc">Description</div>
-                  <div className="assigned">Assigned</div>
-                  <div className="priority">Priority</div>
+                <div className="desc">Description</div>
+                <div className="assigned">Assigned</div>
+                <div className="priority">Priority</div>
               </div>
-              <div className="task-data">
-                  <div className="desc-data">Send notification</div>
-                  <div className="assigned-data">Mark</div>
-                  <div className="priority-data">High</div>
+              {taskData.map((task) => (
+                <div className="task-data" key={task.id}>
+                  <div className="desc-data">{task.description}</div>
+                  <div className="assigned-data">{task.assigned}</div>
+                  <div className="priority-data">{task.priority}</div>
                   <div className="logo-btn">
-                  <i className="far fa-sticky-note"></i>
-                  <i className="far fa-trash-alt"></i>
+                    <i className="far fa-sticky-note"></i>
+                    <i className="far fa-trash-alt"></i>
                   </div>
-              </div>
-              <div className="task-data">
-                  <div className="desc-data">Send notification</div>
-                  <div className="assigned-data">Mark</div>
-                  <div className="priority-data">High</div>
-                  <div className="logo-btn">
-                  <i className="far fa-sticky-note"></i>
-                  <i className="far fa-trash-alt"></i>
-                  </div>
-              </div>
+                </div>
+              ))}
               <div className="new-task">
-                  <div className="text">+ New Task Template</div>
-                  </div>
-          </div>
+                <div className="text">+ New Task Template</div>
+              </div>
+            </div>
           </div>
         </section>
       </section>
     </section>
-)
-}
+  );
+};
 
-export default Tasks
+export default Tasks;
