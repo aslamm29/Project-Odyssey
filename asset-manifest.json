@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Project-Odyssey/static/css/main.88b0fd2c.chunk.css",
-    "main.js": "/Project-Odyssey/static/js/main.9858aa12.chunk.js",
-    "main.js.map": "/Project-Odyssey/static/js/main.9858aa12.chunk.js.map",
+    "main.js": "/Project-Odyssey/static/js/main.dc105881.chunk.js",
+    "main.js.map": "/Project-Odyssey/static/js/main.dc105881.chunk.js.map",
     "runtime-main.js": "/Project-Odyssey/static/js/runtime-main.b7917e9a.js",
     "runtime-main.js.map": "/Project-Odyssey/static/js/runtime-main.b7917e9a.js.map",
-    "static/js/2.46260181.chunk.js": "/Project-Odyssey/static/js/2.46260181.chunk.js",
-    "static/js/2.46260181.chunk.js.map": "/Project-Odyssey/static/js/2.46260181.chunk.js.map",
+    "static/js/2.814db4b7.chunk.js": "/Project-Odyssey/static/js/2.814db4b7.chunk.js",
+    "static/js/2.814db4b7.chunk.js.map": "/Project-Odyssey/static/js/2.814db4b7.chunk.js.map",
     "index.html": "/Project-Odyssey/index.html",
-    "precache-manifest.e57b47e1f7f5cbbcfc5150b72175645e.js": "/Project-Odyssey/precache-manifest.e57b47e1f7f5cbbcfc5150b72175645e.js",
+    "precache-manifest.dcd43926211261580ee227dc6d3433c9.js": "/Project-Odyssey/precache-manifest.dcd43926211261580ee227dc6d3433c9.js",
     "service-worker.js": "/Project-Odyssey/service-worker.js",
     "static/css/main.88b0fd2c.chunk.css.map": "/Project-Odyssey/static/css/main.88b0fd2c.chunk.css.map",
-    "static/js/2.46260181.chunk.js.LICENSE.txt": "/Project-Odyssey/static/js/2.46260181.chunk.js.LICENSE.txt",
+    "static/js/2.814db4b7.chunk.js.LICENSE.txt": "/Project-Odyssey/static/js/2.814db4b7.chunk.js.LICENSE.txt",
     "static/media/main.css": "/Project-Odyssey/static/media/consoleLogo.1990a2ad.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b7917e9a.js",
-    "static/js/2.46260181.chunk.js",
+    "static/js/2.814db4b7.chunk.js",
     "static/css/main.88b0fd2c.chunk.css",
-    "static/js/main.9858aa12.chunk.js"
+    "static/js/main.dc105881.chunk.js"
   ]
 }
