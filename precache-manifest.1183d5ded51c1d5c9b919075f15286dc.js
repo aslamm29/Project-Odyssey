@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ae3ab0c4e596c23d8cbebc0bbf905e1",
+    "revision": "97665f3abfe95adf506910d168731853",
     "url": "/Project-Odyssey/index.html"
   },
   {
-    "revision": "22fcef7a1ae88935e536",
+    "revision": "1084370fd43e23f1a713",
     "url": "/Project-Odyssey/static/css/main.88b0fd2c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Project-Odyssey/static/js/2.4795fd08.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22fcef7a1ae88935e536",
-    "url": "/Project-Odyssey/static/js/main.17196c8c.chunk.js"
+    "revision": "1084370fd43e23f1a713",
+    "url": "/Project-Odyssey/static/js/main.50481224.chunk.js"
   },
   {
     "revision": "7d1b398d059f54e1c9eb",
