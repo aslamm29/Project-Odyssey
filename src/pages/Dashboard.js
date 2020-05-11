@@ -1,16 +1,18 @@
 import React from "react";
+import { HashRouter } from "react-router-dom";
 
 const Dashboard = () => {
   return (
+    <HashRouter basename='/'>
     <section id="dashboard">
       <header>
         <div className="logo">
           <i className="fas fa-search"></i>
         </div>
         <div className="header-menu">
-          <a href="/Project-Odyssey/#/">Dasboard</a>
-          <a href="/Project-Odyssey/#/console">Console</a>
-          <a href="/Project-Odyssey/#/tasks">Tasks</a>
+          <a href="/">Dasboard</a>
+          <a href="/console">Console</a>
+          <a href="/tasks">Tasks</a>
         </div>
         <div className="menu-btn">
           <i className="far fa-bell"></i>
@@ -134,6 +136,7 @@ const Dashboard = () => {
         </div>
       </div>
     </section>
+    </HashRouter>
   );
 };
 

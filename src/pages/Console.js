@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import { HashRouter } from "react-router-dom";
 
 const Console = () => {
   const [angleDown, setAngleDown] = useState(true);
 
   return (
+    <HashRouter basename='/'>
     <section id="console">
       <header>
-        <a href="/Project-Odyssey/#/console" className="logo">
+        <a href="/console" className="logo">
           <div className="logo-img" />
         </a>
         <div className="search-bar">
@@ -27,15 +29,15 @@ const Console = () => {
         <section className="select-menu">
           <ul className="list-container">
             <i className="fas fa-tachometer-alt"></i>
-            <a href="/Project-Odyssey/#/">Dashboard</a>
+            <a href="/">Dashboard</a>
           </ul>
           <ul className="list-container">
             <i className="fas fa-share-alt"></i>
-            <a href="/Project-Odyssey/#/console">Console</a>
+            <a href="/console">Console</a>
           </ul>
           <ul className="list-container">
             <i className="fas fa-list"></i>
-            <a href="/Project-Odyssey/#/tasks">Tasks</a>
+            <a href="/tasks">Tasks</a>
           </ul>
           <ul className="list-container">
             <i className="far fa-file"></i>
@@ -139,6 +141,7 @@ const Console = () => {
         </section>
       </section>
     </section>
+    </HashRouter>
   );
 };
 
