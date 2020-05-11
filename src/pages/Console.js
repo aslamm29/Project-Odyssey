@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"
 
 const Console = () => {
   const [angleDown, setAngleDown] = useState(true);
@@ -6,9 +7,9 @@ const Console = () => {
   return (
     <section id="console">
       <header>
-        <a href="/console" className="logo">
+        <Link to={`/console`} className="logo">
           <div className="logo-img" />
-        </a>
+        </Link>
         <div className="search-bar">
           <i className="fas fa-search"></i>
           <input
@@ -27,15 +28,15 @@ const Console = () => {
         <section className="select-menu">
           <ul className="list-container">
             <i className="fas fa-tachometer-alt"></i>
-            <a href="/">Dashboard</a>
+            <Link to={`/`}>Dashboard</Link>
           </ul>
           <ul className="list-container">
             <i className="fas fa-share-alt"></i>
-            <a href="/console">Console</a>
+            <Link to={`/console`}>Console</Link>
           </ul>
           <ul className="list-container">
             <i className="fas fa-list"></i>
-            <a href="/tasks">Tasks</a>
+            <Link to={`/tasks`}>Tasks</Link>
           </ul>
           <ul className="list-container">
             <i className="far fa-file"></i>

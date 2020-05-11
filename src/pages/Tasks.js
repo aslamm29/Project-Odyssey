@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Task from "../components/Task";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
+import { Link } from "react-router-dom"
 
 const Tasks = () => {
   const [angleDown, setAngleDown] = useState(true);
@@ -62,9 +63,9 @@ const Tasks = () => {
   return (
     <section id="console">
       <header>
-        <a href="/console" className="logo">
+        <Link to={`/console`} className="logo">
           <div className="logo-img" />
-        </a>
+        </Link>
         <div className="search-bar">
           <i className="fas fa-search"></i>
           <input
@@ -83,17 +84,17 @@ const Tasks = () => {
         <section className="select-menu">
           <ul className="list-container">
             <i className="fas fa-tachometer-alt"></i>
-            <a href="/">Dashboard</a>
+            <Link to={`/`}>Dashboard</Link>
           </ul>
           <ul className="list-container">
             <i className="fas fa-share-alt"></i>
-            <a href="/console">Console</a>
+            <Link to={`/console`}>Console</Link>
           </ul>
           <ul className="list-container selected">
             <i className="fas fa-list selected-clr"></i>
-            <a href="/tasks" className="selected-clr">
+            <Link to={`/tasks`} className="selected-clr">
               Tasks
-            </a>
+            </Link>
           </ul>
           <ul className="list-container">
             <i className="far fa-file"></i>
