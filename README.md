@@ -1,3 +1,6 @@
+## Running the application on local system using npm start
+run client server: npm start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
