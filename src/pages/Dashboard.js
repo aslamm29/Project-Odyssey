@@ -30,7 +30,6 @@ const Dashboard = () => {
             <div className="title-box">
               <div className="logo">
                 <i className="fas fa-briefcase">
-                  <div className="bluecircle" />
                 </i>
                 <h4>Projects</h4>
               </div>
@@ -61,7 +60,6 @@ const Dashboard = () => {
             <div className="title-box">
               <div className="logo">
                 <i className="fas fa-wallet">
-                  <div className="bluecircle" />
                 </i>
                 <h4>Invoices</h4>
               </div>

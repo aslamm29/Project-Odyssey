@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import Task from "../components/Task";
+import { DragDropContext, Droppable } from "react-beautiful-dnd";
 
 const Tasks = () => {
   const [angleDown, setAngleDown] = useState(true);
-  // eslint-disable-next-line no-unused-vars
   const [taskData, setTaskData] = useState([
     {
       id: 1,
@@ -12,7 +13,7 @@ const Tasks = () => {
     },
     {
       id: 2,
-      description: "Sarach to pick-up at 2",
+      description: "Sarah to pick-up at 2",
       assigned: "Sarah",
       priority: "High",
     },
@@ -35,6 +36,28 @@ const Tasks = () => {
       priority: "Medium",
     },
   ]);
+
+  const onDragEnd = result => {
+    const { destination, source } = result;
+
+    if (!destination) {
+        return;
+      }
+
+      if (
+        destination.droppableId === source.droppableId &&
+        destination.index === source.index
+      ) {
+        return;
+      }
+
+      const start = taskData[source.index]
+      //handles moving the tasks around
+      const newTasks = taskData
+      newTasks.splice(source.index, 1)
+      newTasks.splice(destination.index, 0, start)
+      setTaskData(newTasks)
+  }
 
   return (
     <section id="console">
@@ -100,17 +123,18 @@ const Tasks = () => {
                 <div className="assigned">Assigned</div>
                 <div className="priority">Priority</div>
               </div>
-              {taskData.map((task) => (
-                <div className="task-data" key={task.id}>
-                  <div className="desc-data">{task.description}</div>
-                  <div className="assigned-data">{task.assigned}</div>
-                  <div className="priority-data">{task.priority}</div>
-                  <div className="logo-btn">
-                    <i className="far fa-sticky-note"></i>
-                    <i className="far fa-trash-alt"></i>
-                  </div>
-                </div>
-              ))}
+              <DragDropContext onDragEnd={onDragEnd}>
+                <Droppable droppableId="tasks">
+                  {(provided) => (
+                    <div {...provided.droppableProps} ref={provided.innerRef}>
+                      {taskData.map((task, index) => (
+                        <Task key={task.id} task={task} index={index} />
+                      ))}
+                      {provided.placeholder}
+                    </div>
+                  )}
+                </Droppable>
+              </DragDropContext>
               <div className="new-task">
                 <div className="text">+ New Task Template</div>
               </div>

@@ -159,18 +159,17 @@
   position: relative;
 }
 
-/* BLUE COLOR CUSTOM STYLING ON ICON
+
 #dashboard .content-section .content-box .box .title-box .logo i .bluecircle {
     height: 20px;
     width: 20px;
-    background: rgb(120, 145, 219);
+    background: rgb(81, 133, 255);
     opacity: .5;
     border-radius: 50%;
     position: absolute;
     top: 0;
     left: 0;
 }
-*/
 
 #dashboard .content-section .content-box .box .title-box .logo h4 {
   margin-left: 5px;
