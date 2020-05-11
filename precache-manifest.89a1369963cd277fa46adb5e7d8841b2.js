@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99b7ce20e776e944470d3e910c092411",
+    "revision": "e8235ab8ef3aa9efe31b7a68ce5651aa",
     "url": "/Project-Odyssey/index.html"
   },
   {
-    "revision": "0a173e34f42821174cc8",
+    "revision": "d085ccae90e229701db7",
     "url": "/Project-Odyssey/static/css/main.88b0fd2c.chunk.css"
   },
   {
-    "revision": "a3428f4eaf18994efab5",
-    "url": "/Project-Odyssey/static/js/2.7ccfdfb3.chunk.js"
+    "revision": "5af0e03534d67f0fe657",
+    "url": "/Project-Odyssey/static/js/2.82369a96.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Project-Odyssey/static/js/2.7ccfdfb3.chunk.js.LICENSE.txt"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/Project-Odyssey/static/js/2.82369a96.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a173e34f42821174cc8",
-    "url": "/Project-Odyssey/static/js/main.f7509ece.chunk.js"
+    "revision": "d085ccae90e229701db7",
+    "url": "/Project-Odyssey/static/js/main.8492e778.chunk.js"
   },
   {
     "revision": "7d1b398d059f54e1c9eb",
