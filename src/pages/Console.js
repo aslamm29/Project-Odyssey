@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Console = () => {
   const [angleDown, setAngleDown] = useState(true);
@@ -7,7 +7,7 @@ const Console = () => {
   return (
     <section id="console">
       <header>
-        <Link to={`/console`} className="logo">
+        <Link to={`/`} className="logo">
           <div className="logo-img" />
         </Link>
         <div className="search-bar">
@@ -53,16 +53,16 @@ const Console = () => {
           )}
           <h3>MY LEADS</h3>
           <ul className="list-container">
-          <i className="far fa-calendar"></i>
+            <i className="far fa-calendar"></i>
             <span>Tour Requests</span>
           </ul>
           <ul className="list-container">
-          <i className="fas fa-users"></i>
+            <i className="fas fa-users"></i>
             <span>Connections</span>
           </ul>
           <h3>ENROLLMENT</h3>
           <ul className="list-container">
-          <i className="far fa-newspaper"></i>
+            <i className="far fa-newspaper"></i>
             <span>News Feed</span>
           </ul>
         </section>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Task from "../components/Task";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Tasks = () => {
   const [angleDown, setAngleDown] = useState(true);
@@ -38,32 +38,32 @@ const Tasks = () => {
     },
   ]);
 
-  const onDragEnd = result => {
+  const onDragEnd = (result) => {
     const { destination, source } = result;
 
     if (!destination) {
-        return;
-      }
+      return;
+    }
 
-      if (
-        destination.droppableId === source.droppableId &&
-        destination.index === source.index
-      ) {
-        return;
-      }
+    if (
+      destination.droppableId === source.droppableId &&
+      destination.index === source.index
+    ) {
+      return;
+    }
 
-      const start = taskData[source.index]
-      //handles moving the tasks around
-      const newTasks = taskData
-      newTasks.splice(source.index, 1)
-      newTasks.splice(destination.index, 0, start)
-      setTaskData(newTasks)
-  }
+    const start = taskData[source.index];
+    //handles moving the tasks around
+    const newTasks = taskData;
+    newTasks.splice(source.index, 1);
+    newTasks.splice(destination.index, 0, start);
+    setTaskData(newTasks);
+  };
 
   return (
     <section id="console">
       <header>
-        <Link to={`/console`} className="logo">
+        <Link to={`/`} className="logo">
           <div className="logo-img" />
         </Link>
         <div className="search-bar">
@@ -111,16 +111,16 @@ const Tasks = () => {
           )}
           <h3>MY LEADS</h3>
           <ul className="list-container">
-          <i className="far fa-calendar"></i>
+            <i className="far fa-calendar"></i>
             <span>Tour Requests</span>
           </ul>
           <ul className="list-container">
-          <i className="fas fa-users"></i>
+            <i className="fas fa-users"></i>
             <span>Connections</span>
           </ul>
           <h3>ENROLLMENT</h3>
           <ul className="list-container">
-          <i className="far fa-newspaper"></i>
+            <i className="far fa-newspaper"></i>
             <span>News Feed</span>
           </ul>
         </section>

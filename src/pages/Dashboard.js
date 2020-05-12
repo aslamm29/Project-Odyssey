@@ -5,9 +5,9 @@ const Dashboard = () => {
   return (
     <section id="dashboard">
       <header>
-        <div className="logo">
-          <i className="fas fa-search"></i>
-        </div>
+        <Link to={`/`} className="logo">
+          <div className="logo-img" />
+        </Link>
         <div className="header-menu">
           <Link to={`/`}>Dasboard</Link>
           <Link to={`/console`}>Console</Link>

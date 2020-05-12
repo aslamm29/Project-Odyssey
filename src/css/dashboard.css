@@ -9,6 +9,7 @@
   padding: 20px 0;
 }
 
+/*
 #dashboard header .logo {
   margin-left: 30px;
   display: flex;
@@ -26,6 +27,25 @@
 
 #dashboard header .logo .fa-search:hover {
   background: #f7f9f8;
+}
+*/
+
+#dashboard header .logo {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dashboard header .logo .logo-img {
+  height: 40px;
+  width: 40px;
+  background: url("../images/consoleLogo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 #dashboard header .header-menu {
@@ -241,6 +261,12 @@
   #dashboard header .logo {
     margin-left: 5px;
   }
+
+  #dashboard header .logo .logo-img {
+    height: 30px;
+    width: 30px;
+  }
+
   #dashboard header .header-menu a {
     font-size: 1rem;
     padding: 0 5px;
