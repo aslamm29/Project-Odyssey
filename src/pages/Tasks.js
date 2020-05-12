@@ -109,6 +109,20 @@ const Tasks = () => {
               <span className="unselected">Forms</span>
             </ul>
           )}
+          <h3>MY LEADS</h3>
+          <ul className="list-container">
+          <i className="far fa-calendar"></i>
+            <span>Tour Requests</span>
+          </ul>
+          <ul className="list-container">
+          <i className="fas fa-users"></i>
+            <span>Connections</span>
+          </ul>
+          <h3>ENROLLMENT</h3>
+          <ul className="list-container">
+          <i className="far fa-newspaper"></i>
+            <span>News Feed</span>
+          </ul>
         </section>
         <section className="content-area">
           <div id="task-container">

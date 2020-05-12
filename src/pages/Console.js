@@ -53,16 +53,16 @@ const Console = () => {
           )}
           <h3>MY LEADS</h3>
           <ul className="list-container">
-          <i class="far fa-calendar"></i>
+          <i className="far fa-calendar"></i>
             <span>Tour Requests</span>
           </ul>
           <ul className="list-container">
-          <i class="fas fa-users"></i>
+          <i className="fas fa-users"></i>
             <span>Connections</span>
           </ul>
           <h3>ENROLLMENT</h3>
           <ul className="list-container">
-          <i class="far fa-newspaper"></i>
+          <i className="far fa-newspaper"></i>
             <span>News Feed</span>
           </ul>
         </section>
